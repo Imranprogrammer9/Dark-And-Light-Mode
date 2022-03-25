@@ -1,0 +1,17 @@
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+body.dark-mode .toggle {
+  width: 60px;
+  height: 20px;
+  margin: 20px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+body.dark-mode .navbar ul li a {
+  color: white;
+}

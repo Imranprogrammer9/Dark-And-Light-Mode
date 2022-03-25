@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background 0.8s;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text {
+  margin: 20px 20px;
+  font-family: "Island Moments", cursive;
+}
+.navbar {
+  font-family: "Varela Round", sans-serif;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.toggle {
+  width: 60px;
+  height: 20px;
+  margin: 20px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+}
+.mobile {
+  display: none;
+}
